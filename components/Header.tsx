@@ -1,7 +1,7 @@
 "use client";
 
 // The header, with the active page and a mobile menu: client-side navigation (next/link), as most
-// Next.js sites do. Kora's toolbar has to follow these page changes without a reload.
+// Next.js sites do: pages change without a reload.
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";

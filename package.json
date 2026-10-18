@@ -2,7 +2,7 @@
   "name": "cafe-boreal-recette",
   "version": "1.0.0",
   "private": true,
-  "description": "Café Boréal: a made-up client site, deployed as a staging site to demo and test Kora's review toolbar.",
+  "description": "Café Boréal: a made-up client site, deployed as a staging site for review demos.",
   "scripts": {
     "dev": "next dev -p 4000",
     "build": "next build",

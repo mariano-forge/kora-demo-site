@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import { Fraunces, Inter } from "next/font/google";
 import { CookieBanner } from "@/components/CookieBanner";
 import { Footer } from "@/components/Footer";
@@ -16,11 +15,6 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 
-// Kora's toolbar, put where an agency puts it: in the root layout, on every page, with next/script.
-// From « Partager la revue » → « Script de recette » in Kora (see .env.example).
-const koraUrl = process.env.NEXT_PUBLIC_KORA_URL?.replace(/\/+$/, "");
-const koraSite = process.env.NEXT_PUBLIC_KORA_SITE;
-
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="fr" className={`${serif.variable} ${sans.variable}`}>
@@ -30,7 +24,6 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <main>{children}</main>
         <Footer />
         <CookieBanner />
-        {koraUrl && koraSite && <Script src={`${koraUrl}/kora-toolbar.js`} data-site={koraSite} strategy="afterInteractive" />}
       </body>
     </html>
   );

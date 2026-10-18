@@ -1,4 +1,4 @@
-// Café Boréal's content: a made-up client. Some flaws are left on purpose, for a review demo with Kora:
+// Café Boréal's content: a made-up client. Some flaws are left on purpose, for review demos:
 // - a typo on the home page (« Réservé une table ») and a pale button hard to read;
 // - the cappuccino at 4,50 € on the home page, 4,20 € on the menu;
 // - the Saturday hours differ between « Le lieu » and the footer;

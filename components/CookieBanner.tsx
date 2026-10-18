@@ -1,7 +1,7 @@
 "use client";
 
-// The cookie banner most sites have, at the bottom of the screen: it sits where Kora's pill does, a
-// realistic case for the toolbar. Remembered on the device once answered.
+// The cookie banner most sites have, fixed at the bottom of the screen. Remembered on the device once
+// answered.
 
 import { useSyncExternalStore } from "react";
 

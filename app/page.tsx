@@ -3,6 +3,8 @@ import { BeanIcon, HeroArt } from "@/components/Art";
 import { Testimonials } from "@/components/Testimonials";
 import { posts } from "@/lib/content";
 
+
+<script src="https://scopeguard-eosin.vercel.app/kora-toolbar.js" data-site="eyJvIjoiRjBRTlQ2alZTRk1QYWFZWlRXMnB4dlJFeTF2NUdsZWoiLCJsIjoxNzkyMzQ3MDgwNzQxLCJwZXJtYW5lbnQiOnRydWV9~GOvjQ-8SZMC5jg-mqKwTarI_-KwUSuok7UzsAjOn7LQ" defer></script>
 export default function HomePage() {
   return (
     <>

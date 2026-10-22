@@ -27,7 +27,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <main>{children}</main>
         <Footer />
         <CookieBanner />
-        <Script src="https://scopeguard-eosin.vercel.app/kora-toolbar.js" data-site="eyJvIjoiRjBRTlQ2alZTRk1QYWFZWlRXMnB4dlJFeTF2NUdsZWoiLCJsIjoxNzkyMzQ3MDgwNzQxLCJwZXJtYW5lbnQiOnRydWV9~GOvjQ-8SZMC5jg-mqKwTarI_-KwUSuok7UzsAjOn7LQ" defer />
+        <script src="https://scopeguard-eosin.vercel.app/kora-toolbar.js" data-site="eyJvIjoiRjBRTlQ2alZTRk1QYWFZWlRXMnB4dlJFeTF2NUdsZWoiLCJsIjoxNzkyMzQ3MDgwNzQxLCJwZXJtYW5lbnQiOnRydWV9~GOvjQ-8SZMC5jg-mqKwTarI_-KwUSuok7UzsAjOn7LQ" defer></script>
       </body>
     </html>
   );
